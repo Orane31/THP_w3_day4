@@ -25,6 +25,7 @@ class Game
       until @board.row_complete == true
         @count_turn +=1 
     # count_turn affiche le nombre de round, +1 à chaque fois que les deux players ont joué
+        system "clear"
         3.times do puts ""
         end
         puts "-" * 40 +" ROUND #{@count_turn} " + "-" * 40
