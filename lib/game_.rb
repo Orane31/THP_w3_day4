@@ -1,3 +1,4 @@
+
 class Game
 
     attr_accessor :players, :board , :player, :count_turn

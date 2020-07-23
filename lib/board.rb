@@ -1,3 +1,4 @@
+
 class Board
     # Le tableau board a 9 cases qui correspondent aux 9 instances de BoardCase
     =begin 
