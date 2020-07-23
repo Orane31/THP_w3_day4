@@ -1,10 +1,8 @@
 
 class Board
-    # Le tableau board a 9 cases qui correspondent aux 9 instances de BoardCase
-    =begin 
     
-    Méthodes : le Board va s'occuper de faire le lien entre les BoardCases et le Game : il change les valeurs des BoardCases (de " " à "x" ou "o") et vérifie en fonction de la combinaison des BoardCases si la partie est finie (= un joueur a gagné ou bien les 9 cases sont remplies sans vainqueur).
-    =end
+# Le tableau board a 9 cases qui correspondent aux 9 instances de BoardCase
+    
         attr_accessor :board, :row_complete
       
         def initialize
